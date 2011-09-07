@@ -1,0 +1,6 @@
+*.docstates
+*.suo
+*.user
+bin
+obj
+ClientBin
