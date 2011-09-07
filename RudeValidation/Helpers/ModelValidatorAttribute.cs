@@ -66,7 +66,7 @@ namespace RudeValidation.Helpers
                     break;
             }
 
-            Entity targetEntity = validationContext.ObjectInstance as Entity;
+            ComplexObject targetEntity = validationContext.ObjectInstance as ComplexObject;
             var breakOnFirstError = (targetEntity == null);
             IEnumerable<ValidationResult> validationResults = TryValidateProperty(value, validationContext, redirectedContext, breakOnFirstError);
 

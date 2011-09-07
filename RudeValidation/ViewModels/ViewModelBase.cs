@@ -2,7 +2,7 @@
 
 namespace RudeValidation.ViewModels
 {
-    public abstract class ViewModelBase : Entity
+    public abstract class ViewModelBase : ComplexObject
     {
     }
 }
